@@ -1,35 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Template Name: Unfold - Personal Resume & CV Template
-    Template URI: site.com
-    Description: Unfold Personal Resume & CV Template
-    Author: Uideck
-    Author URI: https://uideck.com/
-    Support: https://uideck.com/support/
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    1.COMMON
-	2.HEADER
-    3.ABOUT
-    4.SERVICES
-    4.CALL TO ACTION
-    5.WORK
-    6.PRICING
-    7.BLOG
-    8.CONTACT
-    9.FOOTER
-    10.PAGE BANNER
-    10.SINGLE BLOG PAGE
-
------------------------------------------------------------------------------------*/
-/*===========================
-    1. COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
   font-family: "Poppins", sans-serif;
@@ -110,57 +79,6 @@ p {
     p {
       font-size: 15px; } }
 
-.bg_cover {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%; }
-
-/*===== All Button Style =====*/
-.main-btn {
-  display: inline-block;
-  font-weight: 500;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid #754ef9;
-  padding: 0 40px;
-  font-size: 15px;
-  line-height: 48px;
-  border-radius: 50px;
-  color: #fff;
-  cursor: pointer;
-  z-index: 5;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
-  -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
-  box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
-  background-color: #754ef9;
-  text-transform: uppercase; }
-  .main-btn:hover {
-    background-color: #fff;
-    color: #754ef9;
-    border-color: #754ef9; }
-  .main-btn.main-btn-2 {
-    background-color: transparent;
-    color: #fff;
-    border-color: #fff;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-    .main-btn.main-btn-2:hover {
-      background-color: #754ef9;
-      color: #fff;
-      border-color: #754ef9; }
 
 /*===== All Section Title Style =====*/
 .section-title .title {
